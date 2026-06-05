@@ -5,8 +5,9 @@ import HomeContact from "@/components/homePageComponents/HomeContact.vue";
 </script>
 
 <template>
-  <ServicesPage />
-  <hr class="divider">
-  <HomeContact />
-
+  <main>
+    <ServicesPage />
+    <hr class="divider">
+    <HomeContact />
+  </main>
 </template>

@@ -2,35 +2,46 @@
   "projects": [
     {
       "id": 1,
+      "title": "Grateful Jar",
+      "image": "./Grateful-Jar.webp",
+      "small-desc": "gratitude jars filled with notes",
+      "about": "Modern app created so that users can store their memories that they are grateful for. Users can add images to their memories to better remember them.",
+      "link1": "https://grateful-jar.vercel.app",
+      "link2": "https://github.com/Tristan2772/grateful-jar",
+      "featured": true,
+      "category": "software"
+    },
+    {
+      "id": 2,
       "title": "AJ's Lawn and Home",
       "image": "./AJs-Lawn.webp",
       "small-desc": "clean and modern lawn care business website",
-      "about": "A website designed and built with brand-consistent and search engine optimization best practices to establish and grow the client's online presence.",
+      "about": "A website designed and built with brand-consistentcy and search engine optimization as the main priority to establish the client's online presence. Written with vanilla JavaScript.",
       "link1": "https://tristan2772.github.io/AJs-Lawn/",
       "link2": "https://github.com/Tristan2772/AJs-Lawn",
       "featured": true,
       "category": "software"
     },
     {
-      "id": 2,
-      "title": "Nuxt Travel App",
+      "id": 3,
+      "title": "Travel App",
       "image": "./Nuxt-Travel-App.webp",
       "small-desc": "map app with locations",
-      "about": "A full-stack app, written with Nuxt 4, DaisyUI, and Turso. This is a reimplementation of an existing app for personal development purposes. ",
+      "about": "This travel app was created so that users can log their travel adventures with a map-pin and related notes. Written with Nuxt 4, DaisyUI, and Turso.",
       "link1": "https://nuxt-travel-app-three.vercel.app/",
       "link2": "https://github.com/Tristan2772/nuxt-travel-app",
       "featured": true,
       "category": "software"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "David Chu's China Bistro",
       "image": "./David-Chus.webp",
       "small-desc": "restauraunt website layout",
-      "about": "A pixel-perfect implementation of the original website, refactored from Bootstrap 3 to Bootstrap 5. This website was built as a capstone for a web development certification course.",
+      "about": "This website was built as a capstone for a web development certification course. A pixel-perfect implementation of the original website, refactored from Bootstrap 3 to Bootstrap 5. ",
       "link1": "https://tristan2772.github.io/DavidChusChinaBistro/",
       "link2": "https://github.com/Tristan2772/DavidChusChinaBistro",
-      "featured": true,
+      "featured": false,
       "category": "software"
     }
   ]
