@@ -36,7 +36,7 @@
     {
       "id": 4,
       "title": "David Chu's China Bistro",
-      "image": "./David-Chus.webp",
+      "image": "David-Chus.webp",
       "small-desc": "restauraunt website layout",
       "about": "This website was built as a capstone for a web development certification course. A pixel-perfect implementation of the original website, refactored from Bootstrap 3 to Bootstrap 5. ",
       "link1": "https://tristan2772.github.io/DavidChusChinaBistro/",

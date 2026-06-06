@@ -1,10 +1,17 @@
 <script setup>
-  import { ref, onBeforeUnmount } from "vue";
+import { ref, onBeforeUnmount } from "vue";
 import { BiFolderOpen, BiLinkExternal } from 'vue-icons-plus/bi'
 import jsonData from '../../assets/projects.json'
 const projectData = jsonData.projects
 const softwareProjectData = projectData.filter((project) => project.category == 'software')
 const activeCard = ref(null)
+
+const imageModules = import.meta.glob('../../assets/*.{png,jpg,jpeg,webp,gif,svg,avif}', {
+  eager: true,
+  import: 'default',
+})
+
+const getProjectImage = (fileName) => imageModules[`../../assets/${fileName}`] || ''
 
 onBeforeUnmount(() => {
   activeCard.value = null
@@ -17,7 +24,7 @@ onBeforeUnmount(() => {
     <h2>My Projects</h2>
     <div class="projects-container">
       <div class="project-card" v-for="(projects, index) in softwareProjectData" :key="index" @click="activeCard = index" :class="{active: activeCard === index}" >
-        <img :src="`../../assets/${projects.image}`" :alt="projects.smallDesc" />
+        <img :src="getProjectImage(projects.image)" :alt="projects.small-desc" />
         <div class="details">
           <h3>{{ projects.title }}</h3>
           <p>{{ projects.about }}</p>
