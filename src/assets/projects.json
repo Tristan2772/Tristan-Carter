@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Grateful Jar",
-      "image": "./Grateful-Jar.webp",
+      "image": "Grateful-Jar.webp",
       "small-desc": "gratitude jars filled with notes",
       "about": "Modern app created so that users can store their memories that they are grateful for. Users can add images to their memories to better remember them.",
       "link1": "https://grateful-jar.vercel.app",
@@ -14,7 +14,7 @@
     {
       "id": 2,
       "title": "AJ's Lawn and Home",
-      "image": "./AJs-Lawn.webp",
+      "image": "AJs-Lawn.webp",
       "small-desc": "clean and modern lawn care business website",
       "about": "A website designed and built with brand-consistentcy and search engine optimization as the main priority to establish the client's online presence. Written with vanilla JavaScript.",
       "link1": "https://tristan2772.github.io/AJs-Lawn/",
@@ -25,7 +25,7 @@
     {
       "id": 3,
       "title": "Travel App",
-      "image": "./Nuxt-Travel-App.webp",
+      "image": "Nuxt-Travel-App.webp",
       "small-desc": "map app with locations",
       "about": "This travel app was created so that users can log their travel adventures with a map-pin and related notes. Written with Nuxt 4, DaisyUI, and Turso.",
       "link1": "https://nuxt-travel-app-three.vercel.app/",
