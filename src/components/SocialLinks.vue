@@ -18,9 +18,6 @@ import {
     <a href="https://www.instagram.com/technique.cne/" target="_blank">
       <BiLogoInstagramAlt size="24" />
     </a>
-    <a href="https://www.facebook.com/TechNique.CnE/" target="_blank">
-      <BiLogoMeta size="24" />
-    </a>
   </div>
 </template>
 
