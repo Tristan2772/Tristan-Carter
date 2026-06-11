@@ -2,7 +2,6 @@
 import {
   BiLogoGithub,
   BiLogoInstagramAlt,
-  BiLogoMeta,
   BiLogoLinkedinSquare,
 } from 'vue-icons-plus/bi'
 </script>
